@@ -1,0 +1,15 @@
+th, td {
+    padding-right: 90px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+a {
+    color: #495057;
+    text-decoration: none;
+}
+
+
+a .cinepolis {
+    text-align: right;
+}

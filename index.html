@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEATER.CO</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- header design-->
+    <header class="header">
+        <nav class="header-logo">
+            <a href="#">TEATER</a><span>.CO</span>
+        </nav>
+
+        <nav class="header-list">
+            <a href="#">Now Playing</a>
+            <a href="#">Upcoming</a>
+            <a href="#">Film Terbaru</a>
+            <a href="#">Jadwal Bioskop</a>
+            <a href="#">Berita</a>
+        </nav>
+        <script src="node.js"></script>
+
+        <div class="search-bar">
+            <form>
+                <input class="search" type="search" placeholder="Cari Judul Film atau Berita ...">
+                <button type="submit"></button>
+              </form>
+        </div>
+
+         <!-- menu icon -->
+         <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <div class="wrapper">
+        <main>
+            <div id="content">
+                <div class="heading">
+                    <p>Film Tayang Hari Ini</p>
+                    <input type="button" value="Lihat Semua" class="lihat-semua">
+                </div>
+                
+                <article class="tayang-hari-ini">
+                    <section class="saranjana">
+                        <img src="img/saranjana.jpeg" alt="saranjana">
+                        <h3>Saranjana: Kota <br>Ghaib</h3>
+                        <a href="#"><i class='bx bxs-star'></i>7/10(43)</a>
+                        <input type="button" value="Lihat Jadwal Film">
+                    </section>
+
+                    <section class="indigo">
+                        <img src="img/indigo.jpeg" alt="Indigo">
+                        <h3>Indigo</h3>
+                        <a href="#"><i class='bx bxs-star'></i>8.2/10(29)</a>
+                        <input type="button" value="Lihat Jadwal Film">
+                    </section>
+
+                    <section class="freelance">
+                        <img src="img/freelance.jpeg" alt="Freelance">
+                        <h3>Freelance</h3>
+                        <a href="#"><i class='bx bxs-star'></i>5.3/10(379)</a>
+                        <input type="button" value="Lihat Jadwal Film">
+                    </section>
+
+                    <section class="five-nights-at-freddy">
+                        <img src="img/five-nights-at-freddy's.jpeg" alt="Five Nights at Freddy's">
+                        <h3>Five Nights <br>at Freddy's</h3>
+                        <a href="#"><i class='bx bxs-star'></i>6.2/10(1k)</a>
+                        <input type="button" value="Lihat Jadwal Film">
+                    </section>
+                </article>
+            </div>
+        </main>
+
+        <aside>
+            <article class="segera-tayang">
+                <div class="heading">Film Segera Tayang</div>
+                    <div class="card-wrapper">
+                        <section class="trolls-band-together">
+                            <img src="img/trolls-band-together.jpg" alt="Trolls Band Together">
+                            <h5>Trolls Band Together</h5>
+                        </section>
+
+                        <section class="sijjin">
+                            <img src="img/sijjin.jpg" alt="Sijjin">
+                            <h5>Sijjin</h5>
+                        </section>
+
+                        <section class="the-friendship-game">
+                            <img src="img/the-friendship-game.jpg" alt="The Friendship Game">
+                            <h5>The Friendship Game</h5>
+                        </section>
+
+                        <section class="gangnam-zombie">
+                            <img src="img/gangnam-zombie.jpg" alt="Gangnam Zombie">
+                            <h5>Gangnam Zombie</h5>
+                        </section>
+
+                        <section class="perjamuan-iblis">
+                            <img src="img/perjamuan-iblis.webp" alt="Perjamuan Iblis">
+                            <h5>Perjamuan Iblis</h5>
+                        </section>
+
+                        <section class="the-marvels">
+                            <img src="img/the-marvels.jpeg" alt="The Marvels">
+                            <h5>The Marvels</h5>
+                        </section>
+                    </div>
+            </article>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <img src="https://cdn.teater.co/assets/logo.webp" alt="">
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <tr>
+                        <th>Daftar Film</th>
+                        <th>Jadwal Bioskop</th>
+                        <th>Film Tayang Hari Ini</th>
+                        <th>Berita</th>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Now Playing</a></td>
+                        <td><a href="#">BES Cinema</a></td>
+                        <td><a href="#">Seluruh Indonesia</a></td>
+                        <td><a href="#">Movie News</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Upcoming</a></td>
+                        <td><a href="#">CGV Cinemas</a></td>
+                        <td><a href="#">Jakarta</a></td>
+                        <td><a href="#">Cinema Update</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Film Terbaru</a></td>
+                        <td><a href="#">Cinema 21</a></td>
+                        <td><a href="#">Bandung</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#" class="cinepolis">Cinepolis</a></td>
+                        <td><a href="#">Surabaya</a></td>
+                        <th>Tentang</th>
+                    </tr>
+            
+                    <tr>
+                        <th>Daftar Film Indonesia</th>
+                        <td><a href="#">Dakota Cinema</a></td>
+                        <td><a href="#">Denpasar</a></td>
+                        <td><a href="#">Kebijakan Privasi</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Now Playing Film Indonesia</a></td>
+                        <td><a href="#">Denpasar Cineplex</a></td>
+                        <td><a href="#">Semarang</a></td>
+                        <td><a href="#">Disclaimer</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Upcoming Film Indonesia</a></td>
+                        <td><a href="#">Flix Cinema</a></td>
+                        <td><a href="#">Medan</a></td>
+                        <td><a href="#">Pedoman Media Siber</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td><a href="#">Film Terbaru Film Indonesia</a></td>
+                        <td><a href="#">Gajahmada Cinema</a></td>
+                        <td><a href="#">Makassar</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Golden Theater</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Hollywood Cinema</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Kota Cinema Mall</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Local Cinema</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="#">LTD9 Cinema</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Mopic Cinema</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">movimax</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Planet Cinema</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Rajawali Cinema</a></td>
+                    </tr>
+            
+                    <tr>
+                        <td></td>
+                        <td><a href="#">Surya Yudha Cinema</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="small-footer">
+            <p>&#169; 2022 www.teater.co All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
